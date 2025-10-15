@@ -1,0 +1,95 @@
+.app {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+
+}
+
+.search-input {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.link-button {
+  padding: 15px;
+  background-color: #ffffff;
+  opacity: 0.9;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  color: #1f1d1d;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link-button:hover {
+  background-color: #878fff;
+  color: white;
+  animation: bounceZoom 0.4s ease;
+}
+
+@keyframes bounceZoom {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+
+  50% {
+    transform: scale(1.1) translateY(-6px);
+  }
+
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+.logo-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+
+header {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}

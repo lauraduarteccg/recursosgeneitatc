@@ -1,0 +1,175 @@
+{
+  "ZELERIS": {
+    "00000MAIL": "CONSULTAR CON SUPERVISIÓN",
+    "PARTICULAR": "NO CONTACTAR AG",
+    "ANULAR_EN_WEB": "SIEMPRE",
+    "RETRAMITAR": "SE GESTIONA EN WB / SIEMPRE REVISAR RECOGIDA PREVIA",
+    "GESTIONAR_INCIDENCIAS_EN_WEB": "SI",
+    "DEV_RET_FINALIZADA_ZELERIS": "Devuelto a origen.",
+    "PERITAJE_ZELERIS": "NO ABRIR SINIESTRO esperar a confirmación puede que sea negativo.",
+    "RETENIDA_INCORRECTA_EN_ORIGEN": "Indicar al cliente que esta todo correcto y saldrá a destino en breve para la entrega.",
+    "RETENIDO_POR_CONTROL_DE_ACTIVIDAD": "Marca que está dentro de plazo, sin embargo debemos revisar si ya venció el plazo para ahí si consultar a la Agencia.",
+    "FALTA_PROVISIONAL_VS_CONFIRMADA": "PROVISIONAL= Consultar al usuario descripción de embalaje etc sin consultar a la ag / CONFIRMADA= Aperturar siniestro y solicitarlo a la Agencia.",
+    "MULTIRECOGIDA_SE_PUEDE_RETRAMITAR": "Se retramitan los envíos que se necesiten, es decir si solo es uno solo uno. Para anular, anular envío por individual en Admin, no en web.",
+    "SOBRANTE_FICHERO_EN_ZELERIS": "Suele perder trazabilidad, sin embargo, finalmente es encontrado para finalizar la entrega.",
+    "IMPORTACIONES_ZELERIS": "Se reclama a Zeleris no a DHL.",
+    "PROFESIONAL_CAPTACION": "De estos si podemos consultar a Zeleris si tiene envíos recurrentes y buena facturación.",
+    "PÉRDIDA_DE_TRÁNSITO": "Posible pérdida, consultar datos con usuario para localización.",
+    "FALTA_TOTAL": "APERTURA DE SINIESTRO INTERNO = SIN NOTIFICAR AGENCIA.",
+    "url": "[suspicious link removed]"
+  },
+  "CORREOS": {
+    "SERVICIO_OFICINA": "Una vez depositado en oficina ya no se puede modificar, además si se dejó en la oficina seleccionada al inicio, nada que hacer.",
+    "PAQ_LIGHT_O_PAQ_LIGERO": "No brinda información ni reclamación sobre seguimiento.",
+    "ANULAR_EN_WEB": "NO",
+    "CARTA_RESOLUCIONES_DE_CORREOS": "Cuando llega la carta de correos indicando sobre la indemnización, se debe pedir datos al cliente para abrir siniestro y, por conversación secundaria se envía carta a backsiniestros@genei.es solicitando apertura de siniestro, por último abrimos siniestro en Admin.",
+    "ESTACIONADOS": "Un envío ya en tránsito se puede mandar a estacionar para modificar la dirección (confirmar cargo) o entrega en oficina (sin coste).",
+    "OLVIDO_AGREGAR_CONTRAREEMBOLSO": "Si ya esta recogido sería contactar con correos, para que estacionen y poder agregar el reembolso. Al cliente le indicamos que intentamos gestionar pero no le podemos garantizar.",
+    "ENTREGADO_EN_OFICINA_INCORRECTA": "Esto no suele pasar, comparar la oficina seleccionada en envío (la que eligió el usuario) y la oficina marcada en la etiqueta.",
+    "CORREOS_A_PORTUGAL": "NADA, a cambiar de agencia.",
+    "CODIGO_PARA_RECLAMAR_EN_OFICINA": "Le llega por correo al destinatario.",
+    "YA_EN_OFICINA": "Si no se recoge se devuelve automáticamente a ORIGEN - NO SOLICITAR DEVOLUCIÓN.",
+    "MERCANCIA_ARCHIVADA": "Esto ocurre con correos cuando la devolución ha estado pendiente de ser recogido en oficina y ha pasado el plazo, con lo cual esa mercancia la 'archivan' en almacén durante un tiempo y luego destruyen. Se puede solicitar si es posible que destino recoja o depositen de nuevo en delegación, pero sin asegurar porque no siempre se puede.",
+    "url": "https://mioficina.correos.es/es/es/login"
+  },
+  "CEX": {
+    "ANULAR_EN_WEB": "SI",
+    "GESTIONAR_INCIDENCIAS_EN_WEB": "SI",
+    "ENTREGA_EN_SABADO_O_RECOGIDA": "No hay.",
+    "DISPONIBILIDAD_CORREOS_EXPRESS": "Tendría que salir en la lista de agencias disponibles si pueden seleccionarla.",
+    "CITA_PREVIA_NECESARIA": "Suele ser con integraciones y en este caso es la agencia quien debe contactar a la integración para concretar cita.",
+    "url": "https://clientes.correosexpress.com/web/correosexpress/home"
+  },
+  "CTT": {
+    "ANULAR_EN_WEB": "OCASIONALMENTE",
+    "RECOGIDA_NO_DIARIA_EN_MADRID": "Cuando no se genere la recogida, debéis reclamar a este correo: soporte.web@cttexpress.com",
+    "url": "https://www.cttexpress.com/"
+  },
+  "GLS": {
+    "ANULAR_EN_WEB": "SI",
+    "GLS_INTERNACIONAL": "Cada bulto viaja con su expedición, no es como el servicio nacional. Si no quiere este tipo de viaje, cada bulto va con su código, tendría que escoger otra agencia.",
+    "NO_RECEPCION_PAQUETE_EN_OFICINA": "Lo tiene que entregar en la oficina que le corresponde. Luego podéis gestionar quitando el check de 'entrega en oficina' y le recogerían en domicilio.",
+    "OFICINAS_GLS": "https://gls-group.com/ - Dejar en delegación, origen / Buscar seguimiento con el CP de destino.",
+    "url": "https://extranet.gls-spain.es/extranet/login.aspx"
+  },
+  "ENVIALIA": {
+    "ANULAR_EN_WEB": "SI",
+    "LOCALIZAR_OFICINA": "https://ontime.es/localiza-tu-agencia/ / Si el cliente lo dejará en delegación, mandar email a la agencia.",
+    "url": "https://alina.ontime.es/ords/r/ontime/portalcliente999/login"
+  },
+  "SEUR_FRIO": {
+    "ANULAR_EN_WEB": "SI",
+    "IMPORTACIONES_SEUR": "NO REQUIEREN ETIQUETA",
+    "000000MAIL": "Ingresar a SeurPro y buscar en mis envíos con código Genei / NO FUNCIONA, OFRECER CAMBIO DE AGENCIA.",
+    "SEUR_2SHOP": "Es un Seur 2Shop, tenías que escoger la oficina de destino para que tramite.",
+    "url": "https://sso.seur.com/auth/realms/SEURPRO-PRO/protocol/openid-connect/auth"
+  },
+  "INPOST_MONDIAL_RELAY": {
+    "ANULAR_EN_WEB": "SI",
+    "CONTACTO": "Vía WEB",
+    "GESTIONAR_INCIDENCIAS_EN_WEB": "SI",
+    "CONSULTAS": "Se hacen a través de la web de MONDIAL RELAY.",
+    "url": "https://connect.mondialrelay.com/YETI/Account/LogOn"
+  },
+  "TIPSA": {
+    "CONTACTO": "PORTAL WEB",
+    "AJUSTE_DE_KILOS": "POR CORREO",
+    "RECLAMACION_EN_WEB": "Cuando Tipsa nos de respuesta en web indicando algún correo en específico, debemos contactar por conversación secundaria."
+  },
+  "NACEX": {
+    "SEGUIMIENTO": "En la expedición escribir el código Genei +1 al final.",
+    "REFERENCIA_MAS_UNO": {
+      "codigo_cliente": "02707",
+      "agencia": "3303"
+    },
+    "OTRA_FORMA_DE_BUSQUEDA": "En expedición: Agencia: 3303, Albarán: (Cód. de recogida).",
+    "url": "https://www.nacex.es/irSeguimiento.do"
+  },
+  "ENLAZA": {
+    "SEGUIMIENTO_PUBLICO": "Consultar con el código que está en la web en: https://enlaza.eu/sigue-tu-envio/",
+    "url": "https://enlaza.eu/sigue-tu-envio/"
+  },
+  "UPS": {
+    "GESTIONAR_INCIDENCIAS_EN_WEB": "SI",
+    "OFICINAS_UPS": "https://www.ups.com/dropoff/",
+    "url": "https://www.ups.com/es/es/Home.page"
+  },
+  "XPO_PALLETS": {
+    "RETRAMITACION": "NO RETRAMITAR EN ADMIN, SE RETRAMITA POR CORREO O POR LA WEB.",
+    "GESTIONAR_INCIDENCIAS_EN_WEB": "SI",
+    "RECLAMACION": "Las recogidas se escalan por correo a la agencia, pero también se puede crear una solicitud en la web (icono de mano y tuerca) que sirve para reclamaciones.",
+    "url": "https://id-eu.xpo.com/Account/Login"
+  },
+  "TRANSAHER": {
+    "url": "https://clientes.transaher.es/mclient/"
+  },
+  "FEDEX": {
+    "OFICINAS_FEDEX": "https://local.fedex.com/es-es",
+    "PENDIENTE_DE_TRAMITAR": "Permite tramitar sólo 24 horas antes de la recogida, no con más antelación.",
+    "CANCELACION": "Si el envío es por la cuenta de Rigiston, no es necesario anular la recogida. Si es por la cuenta de Susana MBE, se debe solicitar la anulación por email.",
+    "url": "https://www.fedex.com/es-co/home.html"
+  },
+  "TDN": {
+    "ENVIOS_INTERNACIONALES": "No trabaja con particulares. Tanto el remitente como el destinatario deben ser empresas. Suele quedar como 'Pendiente de tramitar'.",
+    "OPERATIVA_INTERNACIONAL": "SÓLO TRABAJA CON EMPRESAS. El 90% de las veces no tramita por ser particulares. Informar al usuario y ofrecer cambio de agencia.",
+    "url": "https://clientes.tdnonline.com/produccion/index.jsp"
+  },
+  "PALLETWAYS": {
+    "RETRAMITACION": "NO RETRAMITAR EN ADMIN, SE RETRAMITA POR CORREO O POR LA WEB.",
+    "RESTRICCION_MADRID": "Palletways no tramitará envíos que tengan como origen o destino Madrid.",
+    "url": "https://portal.palletways.com/login_v2.php"
+  },
+  "DHL": {
+    "CN-18": "Este documento lo envía la agencia y se lo debemos remitir al usuario.",
+    "LOCALIZAR_PARCEL_SHOPS": "https://www.dhl.com/es-es/ecommerce/home/ecommerce-shipments/advantages-for-recipients/servicepoints.html",
+    "url": "https://clientesparcel.dhl.es/area-clientes/Acceso"
+  },
+  "SKYNET": {
+    "ENVIOS_A_ANDORRA": "Gestionar SÓLO CON SKYNET.",
+    "url": "https://www.skynet.es/seguimiento.php"
+  },
+  "SAAT": {
+    "ETIQUETAS": "No requieren.",
+    "RECOGIDA_Y_SEGUIMIENTO": "Gestionar vía correo a atc@satransportes.com",
+    "ANULACION": "Gestionar vía MAIL.",
+    "url": "https://mail.genei.es/#1"
+  },
+  "ONTIME_PALETERIA": {
+    "OFICINAS_ONTIME_ENVIALIA": "https://ontime.es/localiza-tu-agencia/",
+    "url": "https://alina.ontime.es/ords/r/ontime/portalcliente999/login"
+  },
+  "DB_SCHENKER": {
+    "GESTION_CONSULTAS_RECLAMOS": "Se deben gestionar desde 'Backact'.",
+    "url": "https://www.dbschenker.com/app/tracking-public/"
+  },
+  "PALLEX": {
+    "url": "https://mynexus.pallex.com/Identity/Account/Login"
+  },
+  "ZENDESK_GENEI": {
+    "url": "https://geneies.zendesk.com/auth/v2/login/signin"
+  },
+  "SLACK": {
+    "url": "https://app.slack.com/client/T06HF2NP42K/search?cdn_fallback=2"
+  },
+  "3CX": {
+    "url": "https://genei.my3cx.es/#/login"
+  },
+  "ADMIN_GENEI": {
+    "url": "https://v1.genei.es/admin/acceso/login/719aa46e509e1dacada7ef084e1851a95d50a33d"
+  },
+  "ZIMBRA": {
+    "url": "https://mail.genei.es/#1"
+  },
+  "ZENDESK_SENDIROO": {
+    "url": "https://sendirooeshelp.zendesk.com/auth/v2/login/signin"
+  },
+  "ADMIN_SENDIROO": {
+    "url": "https://v1.sendiroo.es/admin/acceso/login/719aa46e509e1dacada7ef084e1851a95d50a33d"
+  },
+  "CORREOS_EXPRESS": {
+    "url": "https://clientes.correosexpress.com/web/correosexpress/home"
+  },
+  "DSV": {
+    "url": "https://mydsv.com/new/dashboard"
+  }
+}
